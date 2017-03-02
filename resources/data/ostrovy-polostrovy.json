@@ -1,0 +1,356 @@
+﻿{
+  "ostrovy": {
+    "1": [
+      "Aleuty"
+    ],
+    "2": [
+      "Grónsko"
+    ],
+    "3": [
+      "Buffinov ostrov"
+    ],
+    "4": [
+      "Viktóriin ostrov"
+    ],
+    "5": [
+      "Bahamy"
+    ],
+    "6": [
+      "Bermudy"
+    ],
+    "7": [
+      "Kuba"
+    ],
+    "8": [
+      "Haiti"
+    ],
+    "9": [
+      "Malé Antily"
+    ],
+    "10": [
+      "Havajské ostrovy"
+    ],
+    "11": [
+      "Galapágy"
+    ],
+    "12": [
+      "Ohňová Zem"
+    ],
+    "13": [
+      "Falklandy"
+    ],
+    "14": [
+      "Madagaskar"
+    ],
+    "15": [
+      "Island"
+    ],
+    "16": [
+      "Nová Guinea"
+    ],
+    "18": [
+      "Sachalin"
+    ],
+    "17": [
+      "Japonské ostrovy"
+    ],
+    "19": [
+      "Cejlón"
+    ],
+    "20": [
+      "Borneo"
+    ],
+    "21": [
+      "Celebes",
+      "Sulawesi"
+    ],
+    "22": [
+      "Sumatra"
+    ],
+    "23": [
+      "Jáva"
+    ],
+    "24": [
+      "Filipíny"
+    ],
+    "25": [
+      "Maledivy"
+    ],
+    "26": [
+      "Seychely"
+    ],
+    "27": [
+      "Maurícius"
+    ],
+    "28": [
+      "Zanzibar"
+    ],
+    "29": [
+      "Sokotra"
+    ],
+    "30": [
+      "Nový Zéland"
+    ],
+    "31": [
+      "Tasmánia"
+    ],
+    "32": [
+      "Nová Kalendónia"
+    ],
+    "33": [
+      "Nové Hebridy"
+    ],
+    "34": [
+      "Fidži"
+    ],
+    "35": [
+      "Azorské ostrovy"
+    ],
+    "36": [
+      "Kapverdy"
+    ],
+    "37": [
+      "Kanárske ostrovy"
+    ],
+    "38": [
+      "Kréta"
+    ],
+    "39": [
+      "Baleáry"
+    ],
+    "40": [
+      "Sicília"
+    ],
+    "41": [
+      "Sardínia"
+    ],
+    "42": [
+      "Korzika"
+    ],
+    "43": [
+      "Elba"
+    ],
+    "44": [
+      "Britské ostrovy"
+    ],
+    "45": [
+      "Cyprus"
+    ],
+    "46": [
+      "Nová Zem"
+    ],
+    "47": [
+      "Severná Zem"
+    ],
+    "48": [
+      "Nové Sibírske ostrovy"
+    ],
+    "49": [
+      "Zem Františka Jozefa"
+    ],
+    "50": [
+      "Andamány"
+    ],
+    "51": [
+      "Hebridy"
+    ],
+    "52": [
+      "Orkneje"
+    ],
+    "53": [
+      "Shetlandy"
+    ],
+    "54": [
+      "Lofoty"
+    ],
+    "55": [
+      "Verterály"
+    ],
+    "56": [
+      "Elesmerov ostrov"
+    ],
+    "57": [
+      "Kurily"
+    ]
+  },
+  "polostrovy": {
+    "A": [
+      "Škandinávsky"
+    ],
+    "B": [
+      "Pyrenejský"
+    ],
+    "C": [
+      "Apeninsky"
+    ],
+    "D": [
+      "Balkánsky"
+    ],
+    "E": [
+      "Peloponézsky"
+    ],
+    "F": [
+      "Krym"
+    ],
+    "G": [
+      "Bretónsky"
+    ],
+    "H": [
+      "Jutský"
+    ],
+    "I": [
+      "Kola"
+    ],
+    "J": [
+      "Kanin"
+    ],
+    "K": [
+      "Tajmýr"
+    ],
+    "L": [
+      "Kamčatka"
+    ],
+    "M": [
+      "Čukotka"
+    ],
+    "N": [
+      "Kórejský"
+    ],
+    "O": [
+      "Zadná India"
+    ],
+    "P": [
+      "Predná India"
+    ],
+    "Q": [
+      "Arabský"
+    ],
+    "R": [
+      "Malá Ázia"
+    ],
+    "S": [
+      "Somálsky"
+    ],
+    "T": [
+      "Yorský"
+    ],
+    "U": [
+      "Aljaška"
+    ],
+    "V": [
+      "Labradorský"
+    ],
+    "W": [
+      "Florida"
+    ],
+    "X": [
+      "Kalifornský"
+    ],
+    "Y": [
+      "Yukatán"
+    ]
+  },
+  "prvky": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y"
+  ],
+  "title": "Ostrovy a polostrovy",
+  "success": "Uhádli ste všetky ostrovy a polostrovy.",
+  "types": {
+    "num": {
+      "color": "red",
+      "bg": "white",
+      "name": "ostrovy"
+    },
+    "upp": {
+      "color": "green",
+      "bg": "white",
+      "name": "polostrovy"
+    },
+    "low": {
+      "color": "",
+      "bg": "",
+      "name": ""
+    }
+  }
+}

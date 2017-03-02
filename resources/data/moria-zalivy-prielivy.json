@@ -1,0 +1,390 @@
+﻿{
+  "moria": {
+    "1": [
+      "Beringovo"
+    ],
+    "2": [
+      "Beaufortovo"
+    ],
+    "3": [
+      "Sargasove"
+    ],
+    "4": [
+      "Severné"
+    ],
+    "5": [
+      "Nórske"
+    ],
+    "6": [
+      "Barentsovo"
+    ],
+    "7": [
+      "Baltské"
+    ],
+    "8": [
+      "Stredozemné"
+    ],
+    "9": [
+      "Biele"
+    ],
+    "10": [
+      "Čierne"
+    ],
+    "11": [
+      "Írske"
+    ],
+    "12": [
+      "Keltské"
+    ],
+    "13": [
+      "Karské"
+    ],
+    "14": [
+      "Laptevovcov"
+    ],
+    "15": [
+      "Východosibírske"
+    ],
+    "16": [
+      "Ochotské"
+    ],
+    "17": [
+      "Japonské"
+    ],
+    "18": [
+      "Žlté"
+    ],
+    "19": [
+      "Východočínske"
+    ],
+    "20": [
+      "Juhočínske"
+    ],
+    "21": [
+      "Andamanské"
+    ],
+    "22": [
+      "Arabské"
+    ],
+    "23": [
+      "Červené"
+    ],
+    "24": [
+      "Filipínske"
+    ],
+    "25": [
+      "Bandské"
+    ],
+    "26": [
+      "Timorské"
+    ],
+    "27": [
+      "Tasmanove"
+    ],
+    "28": [
+      "Jávske"
+    ],
+    "29": [
+      "Arafurské"
+    ],
+    "30": [
+      "Sulaweské"
+    ],
+    "31": [
+      "Koralové"
+    ],
+    "32": [
+      "Karibské"
+    ],
+    "33": [
+      "Egejské"
+    ],
+    "34": [
+      "Jadranské"
+    ],
+    "35": [
+      "Tyrhenské"
+    ],
+    "36": [
+      "Weddellovo"
+    ],
+    "37": [
+      "Rossovo"
+    ],
+    "38": [
+      "Amundsenovo"
+    ]
+  },
+  "zalivy": {
+    "A": [
+      "Mexický"
+    ],
+    "B": [
+      "Aljašský"
+    ],
+    "C": [
+      "Baffinov"
+    ],
+    "D": [
+      "Hudsonov"
+    ],
+    "E": [
+      "sv. Vavrinec"
+    ],
+    "F": [
+      "Kalifornský"
+    ],
+    "G": [
+      "Botnický"
+    ],
+    "H": [
+      "Biskajský"
+    ],
+    "I": [
+      "Lionský"
+    ],
+    "J": [
+      "Fínsky"
+    ],
+    "K": [
+      "Obský"
+    ],
+    "L": [
+      "Anadyrský"
+    ],
+    "M": [
+      "Šelechovov"
+    ],
+    "N": [
+      "Bac-Bo",
+      "Tonkinský"
+    ],
+    "O": [
+      "Bengálsky"
+    ],
+    "P": [
+      "Thajský"
+    ],
+    "Q": [
+      "Ománsky"
+    ],
+    "R": [
+      "Adenský"
+    ],
+    "S": [
+      "Guinejský"
+    ],
+    "T": [
+      "Veľký austrálsky"
+    ],
+    "U": [
+      "Veľká Syrta"
+    ],
+    "V": [
+      "Malá Syrta"
+    ],
+    "W": [
+      "Karpentársky"
+    ],
+    "X": [
+      "Perzský"
+    ]
+  },
+  "prielivy": {
+    "a": [
+      "Torresov"
+    ],
+    "b": [
+      "Bassov"
+    ],
+    "c": [
+      "Tchajwanský"
+    ],
+    "d": [
+      "Kórejský"
+    ],
+    "e": [
+      "Tatársky"
+    ],
+    "f": [
+      "Kurilský"
+    ],
+    "g": [
+      "Beringov"
+    ],
+    "h": [
+      "Hormuzský"
+    ],
+    "i": [
+      "Báb al Mandéb"
+    ],
+    "j": [
+      "Skagerat"
+    ],
+    "k": [
+      "Kattegat"
+    ],
+    "l": [
+      "Lamanšský"
+    ],
+    "m": [
+      "sv. Juraj"
+    ],
+    "n": [
+      "Gibraltársky"
+    ],
+    "o": [
+      "Sicílsky"
+    ],
+    "p": [
+      "Messinský"
+    ],
+    "q": [
+      "Bonifácky"
+    ],
+    "r": [
+      "Bospor"
+    ],
+    "s": [
+      "Dardanely"
+    ],
+    "t": [
+      "Otranský"
+    ],
+    "u": [
+      "Severný"
+    ],
+    "v": [
+      "Mozambický"
+    ],
+    "w": [
+      "Floridský"
+    ],
+    "x": [
+      "Hudsonov"
+    ],
+    "y": [
+      "Davisov"
+    ],
+    "z": [
+      "Yucatánsky"
+    ],
+    "aa": [
+      "Magalhaesov"
+    ],
+    "ab": [
+      "Drakov"
+    ]
+  },
+  "prvky": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "aa",
+    "ab"
+  ],
+  "title": "Moria, zálivy, prielivy",
+  "success": "Uhádli ste všetky moria, zálivy, prielivy.",
+  "types": {
+    "num": {
+      "color": "red",
+      "bg": "white",
+      "name": "moria"
+    },
+    "upp": {
+      "color": "green",
+      "bg": "white",
+      "name": "zalivy"
+    },
+    "low": {
+      "color": "blue",
+      "bg": "yellow",
+      "name": "prielivy"
+    }
+  }
+}
