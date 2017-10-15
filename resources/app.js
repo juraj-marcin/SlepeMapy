@@ -46,11 +46,14 @@ function init(map) {
             if (key == 13) {
                 e.preventDefault();
                 check();
-            } else if (key == 17) {
+            } else if (key == 9) {
+                e.preventDefault();
                 generate();
             }
         });
-        $("#app .slepamapa").css("width", "100%");
+        //$("#app .slepamapa").css("width", "100%");
+        $("#app .slepamapa").css("height", "100%");
+        $("#app .slepamapa").css("display", "block");
         $("#app .slepamapa").attr("src", "/resources/data/img/" + map + ".jpg");
         $("#app").attr("data-opened", "");
     }).fail(function (data, status, error) {
