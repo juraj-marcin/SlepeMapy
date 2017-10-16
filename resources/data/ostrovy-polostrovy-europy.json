@@ -9,7 +9,7 @@
         "7": ["Lofoty"],
         "8": ["Vestrály"],
         "9": ["Faerské"],
-        "10": ["Britania"],
+        "10": ["Británia"],
         "11": ["Hebridy"],
         "12": ["Orkneje"],
         "13": ["Shetlandy"],
@@ -42,7 +42,7 @@
     "polostrovy": {
         "A": ["Kola"],
         "B": ["Kanin"],
-        "C": ["Škandinávksy"],
+        "C": ["Škandinávsky"],
         "D": ["Jutský"],
         "E": ["Cornwall"],
         "F": ["Normandský"],
@@ -51,7 +51,7 @@
         "I": ["Apeninský"],
         "J": ["Balkánsky"],
         "K": ["Istria"],
-        "L": ["Peloponéz"],
+        "L": ["Peloponézsky", "Peloponéz"],
         "M": ["Chalkidiki"],
         "N": ["Krym"]
     },

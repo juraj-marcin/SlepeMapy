@@ -1,33 +1,33 @@
 var prvky;
 var dataJSON;
 
-$(document).ready(function () {
-    $("#app #close").click(function () {
+$(document).ready(function() {
+    $("#app #close").click(function() {
         $("#app").removeAttr("data-opened");
         $("title").html("Slepé mapy");
     });
-    $('a[href^="#"]').click(function () {
+    $('a[href^="#"]').click(function() {
         if (this.hash.substring(1) != "")
             init(this.hash.substring(1));
     });
 });
 
-$(window).on("load", function () {
+$(window).on("load", function() {
     if (window.location.hash) {
         if (window.location.hash.substring(1) != "")
             init(window.location.hash.substring(1));
     }
-})
+});
 
-$(document).keydown(function (e) {
+$(document).keydown(function(e) {
     var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
     if (key == 27) {
         $("#app #close").click();
     }
-})
+});
 
 function init(map) {
-    $.getJSON("/resources/data/" + map + ".json", function (data) {
+    $.getJSON("/resources/data/" + map + ".json", function(data) {
         dataJSON = data;
         prvky = data.prvky;
         generate();
@@ -35,13 +35,13 @@ function init(map) {
         $("#app #ansT").html("");
         $("#app #ansF").html("");
         $("#app #control").html("");
-        $("#app #check").click(function () {
+        $("#app #check").click(function() {
             check();
         });
-        $("#app #generate").click(function () {
+        $("#app #generate").click(function() {
             generate();
         });
-        $("#app #answer").keydown(function (e) {
+        $("#app #answer").keydown(function(e) {
             var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
             if (key == 13) {
                 e.preventDefault();
@@ -56,7 +56,7 @@ function init(map) {
         $("#app .slepamapa").css("display", "block");
         $("#app .slepamapa").attr("src", "/resources/data/img/" + map + ".jpg");
         $("#app").attr("data-opened", "");
-    }).fail(function (data, status, error) {
+    }).fail(function(data, status, error) {
         alert(error);
         return;
     });
