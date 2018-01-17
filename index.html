@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="UFT-8">
-    <title>Slepé mapy</title>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="/resources/app.js"></script>
-    <link rel="stylesheet" href="/resources/style.css" type="text/css">
-</head>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Slepé mapy</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="./resources/app.js"></script>
+        <link rel="stylesheet" href="./resources/style.css" type="text/css"/>
+    </head>
 
-<body>
-    <h1>Slepé mapy</h1>
-    <a href="#ostrovy-polostrovy">
-        <h3>Ostrovy a polostrovy</h3>
-    </a>
-    <a href="#moria-zalivy-prielivy">
-        <h3>Moria, zálivy, prielivy</h3>
-    </a>
-    <a href="#hlavne-mesta-europy">
-        <h3>Európa - štáty a mestá</h3>
-    </a>
-    <a href="#ostrovy-polostrovy-europy">
-        <h3>Ostrovy a polostrovy Európy</h3>
-    </a>
-    <h6><a href="./LICENSE">Copyright 2017 Juraj Marcin</a></h6>
-    <div id="app">
-        <a href="#"><button id="close">Zavrieť (Esc)</button></a>
-        <input id="number" type="text" readonly="">
-        <input type="hidden" id="type">
-        <input id="answer" type="text">
-        <button id="check">Skotrolovať (Enter)</button>
-        <button id="generate">Preskočiť (Tab)</button>
-        <span id="control"></span>
-        <img class="slepamapa">
-        <h1>Správne odpovede</h1>
-        <p id="ansT"></p>
-        <h1>Nesprávne odpovede</h1>
-        <p id="ansF"></p>
-    </div>
-</body>
+    <body>
+        <h1>Slepé mapy</h1>
+        <a href="#ostrovy-polostrovy">
+            <h3>Ostrovy a polostrovy</h3>
+        </a>
+        <a href="#moria-zalivy-prielivy">
+            <h3>Moria, zálivy, prielivy</h3>
+        </a>
+        <a href="#hlavne-mesta-europy">
+            <h3>Európa - štáty a mestá</h3>
+        </a>
+        <a href="#ostrovy-polostrovy-europy">
+            <h3>Ostrovy a polostrovy Európy</h3>
+        </a>
+        <a href="#rieky-europy">
+            <h3>Rieky Európy</h3>
+        </a>
+        <h6>
+            <a href="./LICENSE">Copyright 2017 Juraj Marcin</a>
+        </h6>
+        <div id="app">
+            <a href="#">
+                <button id="close">Zavrieť (Esc)</button>
+            </a>
+            <input id="number" type="text" readonly=""/>
+            <input type="hidden" id="type"/>
+            <input id="answer" type="text"/>
+            <button id="check">Skotrolovať (Enter)</button>
+            <button id="generate">Preskočiť (Tab)</button>
+            <span id="control"></span>
+            <img class="slepamapa" alt="Slepá mapa"/>
+            <h1>Správne odpovede</h1>
+            <p id="ansT"></p>
+            <h1>Nesprávne odpovede</h1>
+            <p id="ansF"></p>
+        </div>
+    </body>
 
 </html>

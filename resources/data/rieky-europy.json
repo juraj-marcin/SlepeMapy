@@ -1,0 +1,69 @@
+{
+    "rieky": {
+        "A": ["Volga"],
+        "B": ["Dunaj"],
+        "C": ["ural"],
+        "D": ["Dneper"],
+        "E": ["Kama"],
+        "F": ["Don"],
+        "G": ["Pečora"],
+        "H": ["Dnester"],
+        "I": ["Rýn"],
+        "J": ["Severná Dvina"],
+        "K": ["visla"],
+        "L": ["Odra"],
+        "M": ["Labe"],
+        "N": ["Seina"],
+        "O": ["Loira"],
+        "P": ["Garonna"],
+        "Q": ["Rhôna"],
+        "R": ["Pád"],
+        "S": ["emba"],
+        "T": ["Temža"],
+        "U": ["Sáva"],
+        "V": ["Dráva"]
+    },
+    "prvky": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V"
+    ],
+    "title": "Rieky Európy",
+    "success": "Uhádli ste všetky rieky Európy.",
+    "types": {
+        "num": {
+            "color": "red",
+            "bg": "white",
+            "name": "rieky"
+        },
+        "upp": {
+            "color": "",
+            "bg": "",
+            "name": ""
+        },
+        "low": {
+            "color": "",
+            "bg": "",
+            "name": ""
+        }
+    }
+}

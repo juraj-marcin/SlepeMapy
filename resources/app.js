@@ -27,7 +27,7 @@ $(document).keydown(function(e) {
 });
 
 function init(map) {
-    $.getJSON("/resources/data/" + map + ".json", function(data) {
+    $.getJSON("resources/data/" + map + ".json", function(data) {
         dataJSON = data;
         prvky = data.prvky;
         generate();
@@ -54,7 +54,7 @@ function init(map) {
         //$("#app .slepamapa").css("width", "100%");
         $("#app .slepamapa").css("height", "100%");
         $("#app .slepamapa").css("display", "block");
-        $("#app .slepamapa").attr("src", "/resources/data/img/" + map + ".jpg");
+        $("#app .slepamapa").attr("src", "./resources/data/img/" + map + ".jpg");
         $("#app").attr("data-opened", "");
     }).fail(function(data, status, error) {
         alert(error);
