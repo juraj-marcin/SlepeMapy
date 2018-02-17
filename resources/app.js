@@ -1,60 +1,19 @@
 var prvky;
 var dataJSON;
+var mapName;
 
-$(document).ready(function() {
-    $("#app #close").click(function() {
-        $("#app").removeAttr("data-opened");
-        $("title").html("Slepé mapy");
-    });
-    $('a[href^="#"]').click(function() {
-        if (this.hash.substring(1) != "")
-            init(this.hash.substring(1));
-    });
-});
-
-$(window).on("load", function() {
-    if (window.location.hash) {
-        if (window.location.hash.substring(1) != "")
-            init(window.location.hash.substring(1));
-    }
-});
-
-$(document).keydown(function(e) {
-    var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
-    if (key == 27) {
-        $("#app #close").click();
-    }
-});
+registerEvents();
 
 function init(map) {
-    $.getJSON("resources/data/" + map + ".json", function(data) {
+    mapName = map;
+    $.getJSON("resources/data/" + mapName + ".json", function(data) {
         dataJSON = data;
         prvky = data.prvky;
         generate();
-        $("title").html(dataJSON.title + " | Slepé mapy");
         $("#app #ansT").html("");
         $("#app #ansF").html("");
         $("#app #control").html("");
-        $("#app #check").click(function() {
-            check();
-        });
-        $("#app #generate").click(function() {
-            generate();
-        });
-        $("#app #answer").keydown(function(e) {
-            var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
-            if (key == 13) {
-                e.preventDefault();
-                check();
-            } else if (key == 9) {
-                e.preventDefault();
-                generate();
-            }
-        });
-        //$("#app .slepamapa").css("width", "100%");
-        $("#app .slepamapa").css("height", "100%");
-        $("#app .slepamapa").css("display", "block");
-        $("#app .slepamapa").attr("src", "./resources/data/img/" + map + ".jpg");
+        $("#app .slepamapa").attr("src", "./resources/data/img/" + mapName + ".jpg");
         $("#app").attr("data-opened", "");
     }).fail(function(data, status, error) {
         alert(error);
@@ -99,7 +58,7 @@ function check() {
     var spravneN = dataJSON[type][num];
     if (spravne.indexOf(ans.toLowerCase()) > -1) {
         $("#app #control").html("Správna odpoveď.");
-        $("#app #ansT").html($("#app #ansT").html() + num + ":" + ans + "<br>");
+        $("#app #ansT").html($("#app #ansT").html() + "<tr><td>" + num + "</td><td>" + ans + "</td></tr>");
         var index = prvky.indexOf(num);
         if (index > -1 && !repeat) {
             prvky.splice(index, 1);
@@ -108,11 +67,59 @@ function check() {
         var spravnao = spravneN[0];
         for (var i = 1; i < spravneN.lenght; i++)
             spravnao += "/" + spravneN[i];
-        $("#app #control").html("Zlá odpoveď. (" + spravnao + ")");
-        $("#app #ansF").html($("#app #ansF").html() + num + ":" + ans + ":" + spravnao + "<br>");
+        $("#app #control").html("Zlá odpoveď. (Správna odpoveď: " + spravnao + ")");
+        $("#app #ansF").html($("#app #ansF").html() + "<tr><td>" + num + "</td><td>" + ans + "</td><td>" + spravnao + "</td></tr>");
     }
     $("#app #number").attr("value", "");
     $("#app #type").attr("value", "");
     $("#app #answer").val("");
     generate();
+}
+
+function close() {
+    $("#app").removeAttr("data-opened");
+}
+
+function registerEvents() {
+    $('a[data-map]').click(function(e) {
+        init($(this).attr("data-map"));
+    });
+
+    $("#app #close").click(function() {
+        close();
+    });
+    $("#app #cheatsheet").click(function() {
+        if (mapName == "")
+            return;
+        window.open("./resources/cheatsheets/" + mapName + ".pdf");
+    });
+    $("#app #check").click(function() {
+        if (mapName == "")
+            return;
+        check();
+    });
+    $("#app #generate").click(function() {
+        if (mapName == "")
+            return;
+        generate();
+    });
+
+    $("#app #answer").keydown(function(e) {
+        if (mapName == "")
+            return;
+        var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
+        if (key == 13) {
+            e.preventDefault();
+            check();
+        } else if (key == 9) {
+            e.preventDefault();
+            generate();
+        }
+    });
+    $(document).keydown(function(e) {
+        var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
+        if (key == 27) {
+            close();
+        }
+    });
 }

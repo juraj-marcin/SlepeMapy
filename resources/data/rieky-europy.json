@@ -51,14 +51,14 @@
     "success": "Uhádli ste všetky rieky Európy.",
     "types": {
         "num": {
-            "color": "red",
-            "bg": "white",
-            "name": "rieky"
-        },
-        "upp": {
             "color": "",
             "bg": "",
             "name": ""
+        },
+        "upp": {
+            "color": "red",
+            "bg": "white",
+            "name": "rieky"
         },
         "low": {
             "color": "",
