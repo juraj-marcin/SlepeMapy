@@ -43,8 +43,8 @@
 }
 
 #app input#number {
-    width: 18px;
-    padding: 11px 23px;
+    width: 64px;
+    padding: 11px 0;
     font-weight: bold;
     text-align: center;
 }
@@ -52,7 +52,8 @@
 #app .slepamapa {
     display: block;
     max-width: 100%;
-    height: calc(100% - 35px);
+    height: auto;
+    max-height: calc(100% - 35px);
     margin-top: 8px;
 }
 

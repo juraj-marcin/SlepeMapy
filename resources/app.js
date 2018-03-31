@@ -4,7 +4,11 @@ var mapName;
 
 registerEvents();
 
+if (window.location.hash != "")
+    init(window.location.hash.substring(1));
+
 function init(map) {
+    window.location.hash = map;
     mapName = map;
     $.getJSON("resources/data/" + mapName + ".json", function(data) {
         dataJSON = data;
@@ -78,6 +82,7 @@ function check() {
 
 function close() {
     $("#app").removeAttr("data-opened");
+    window.location.hash = "";
 }
 
 function registerEvents() {
@@ -121,5 +126,10 @@ function registerEvents() {
         if (key == 27) {
             close();
         }
+    });
+    $(window).on("hashchange", function() {
+        console.log(window.location.hash);
+        if (window.location.hash == "")
+            close();
     });
 }
